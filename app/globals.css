@@ -10,10 +10,11 @@
   --raisin-black: #222631ff;
   --eerie-black: #070607;
 }
-body {
-  @apply font-gilroy;
+
+* {
+  @apply text-seasalt;
 }
 
-main {
-  @apply text-seasalt;
+body {
+  @apply font-gilroy;
 }
