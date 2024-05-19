@@ -16,5 +16,9 @@
 }
 
 body {
-  @apply font-gilroy;
+  @apply font-satoshi;
+}
+
+.nav-list {
+  @apply inline-block py-0 px-5 hover:text-delft-blue transition-colors;
 }

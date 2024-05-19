@@ -32,7 +32,7 @@ export default function Home() {
             />
           </div>
           <div>
-            <h1 className='pb-4 text-4xl text-seasalt font-bold'>
+            <h1 className='pb-4 text-5xl text-seasalt font-bold'>
               Agustin Ludueña
             </h1>
             <p className='text-xl text-seasalt'>

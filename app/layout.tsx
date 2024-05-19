@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 
-const gilroy = localFont({
-  src: '../fonts/Gilroy-Light.ttf',
+const satoshi = localFont({
+  src: '../fonts/Satoshi-Regular.ttf',
   display: 'swap',
-  variable: '--font-gilroy',
+  variable: '--font-satoshi',
 });
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${gilroy.variable}`}>{children}</body>
+      <body className={`${satoshi.variable}`}>{children}</body>
     </html>
   );
 }
