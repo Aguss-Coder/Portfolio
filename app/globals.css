@@ -15,10 +15,18 @@
   @apply text-seasalt;
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
   @apply font-satoshi;
 }
 
 .nav-list {
-  @apply inline-block py-0 px-5 hover:text-delft-blue transition-colors;
+  @apply inline-block py-0 px-5 transition-colors;
 }
+
+.parent {
+  @apply grid grid-cols-3 grid-rows-1 gap-0;
+  }
