@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import React from 'react';
 import { motion } from 'framer-motion';
-import { AuroraBackground } from '@/components/ui/aurora-background';
+import { AuroraBackground } from '@/components/ui/auroraBackground';
+import ContactForm from '@/components/ui/contactForm';
 import projectData from '@/data/projects.json';
 
 interface Project {
@@ -18,7 +19,7 @@ export default function Home() {
   const projects: Project[] = projectData;
   return (
     <AuroraBackground className='h-full z-0'>
-      <nav className='sticky   top-0 h-10 flex justify-end items-center w-full z-50 bg-black bg-opacity-15'>
+      <nav className='sticky top-0 h-10 flex justify-end items-center w-full z-50 bg-black bg-opacity-15'>
         <ul className='nav-list'>
           <li className='nav-list hover:opacity-50'>
             <Link href='/'>Home</Link>
@@ -136,7 +137,10 @@ export default function Home() {
             id='contact'
           >
             <h2 className='text-2xl w-fit mb-2'>Contact</h2>
-            <p>If you want to contact me, you can send me an email to </p>
+            <p className='mb-6'>
+              If you want to contact me, you can send me an email
+            </p>
+            <ContactForm />
           </section>
         </div>
       </motion.div>

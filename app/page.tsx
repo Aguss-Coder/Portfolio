@@ -2,9 +2,9 @@
 
 import { motion } from 'framer-motion';
 import React from 'react';
-import { AuroraBackground } from '@/components/ui/aurora-background';
+import { AuroraBackground } from '@/components/ui/auroraBackground';
 import Image from 'next/image';
-import { HoverBorderGradient } from '@/components/ui/hover-border-gradient';
+import { HoverBorderGradient } from '@/components/ui/hoverBorderGradient';
 import { FaArrowRight } from 'react-icons/fa6';
 import Link from 'next/link';
 

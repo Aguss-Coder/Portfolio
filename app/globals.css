@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --seasalt: #F9F9FAff;
-  --paynes-gray: #5B657Aff;
-  --delft-blue: #2C3A5Bff;
-  --jet: #36353Bff;
+  --seasalt: #f9f9faff;
+  --paynes-gray: #5b657aff;
+  --delft-blue: #2c3a5bff;
+  --jet: #36353bff;
   --raisin-black: #222631ff;
   --eerie-black: #070607;
 }
@@ -24,9 +24,17 @@ body {
 }
 
 .nav-list {
-  @apply inline-block py-0 px-5 transition-colors;
+  @apply inline-block mx-5 transition-colors;
 }
 
 .parent {
   @apply grid grid-cols-3 grid-rows-1 gap-0;
-  }
+}
+
+label {
+  @apply flex flex-col w-10/12;
+}
+
+input {
+  @apply border-2 border-delft-blue rounded-lg p-2 text-eerie-black;
+}
