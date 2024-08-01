@@ -28,7 +28,7 @@ body {
 }
 
 .parent {
-  @apply grid grid-cols-3 grid-rows-1 gap-0;
+  @apply grid grid-cols-1 lg:grid-cols-3 grid-rows-1 gap-0;
 }
 
 label {
@@ -36,5 +36,5 @@ label {
 }
 
 input {
-  @apply border-2 border-delft-blue rounded-lg p-2 text-eerie-black;
+  @apply flex flex-col w-10/12 border-2 border-delft-blue rounded-lg p-2 text-eerie-black;
 }

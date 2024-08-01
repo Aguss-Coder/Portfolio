@@ -19,7 +19,7 @@ export default function Home() {
   const projects: Project[] = projectData;
   return (
     <AuroraBackground className='h-full z-0'>
-      <nav className='sticky top-0 h-10 flex justify-end items-center w-full z-50 bg-black bg-opacity-15'>
+      <nav className='hidden sticky top-0 h-10 md:flex justify-end items-center w-full z-50 bg-black bg-opacity-15'>
         <ul className='nav-list'>
           <li className='nav-list hover:opacity-50'>
             <Link href='/'>Home</Link>
@@ -45,7 +45,7 @@ export default function Home() {
         }}
         className='flex z-0 gap-4 h-full'
       >
-        <div className='flex flex-col w-[70%] m-auto'>
+        <div className='flex flex-col w-[90%] md:w-[70%] m-auto'>
           <section
             className='z-10 pt-10'
             id='projects'
@@ -137,7 +137,7 @@ export default function Home() {
             id='contact'
           >
             <h2 className='text-2xl w-fit mb-2'>Contact</h2>
-            <p className='mb-6'>
+            <p className='  mb-6'>
               If you want to contact me, you can send me an email
             </p>
             <ContactForm />

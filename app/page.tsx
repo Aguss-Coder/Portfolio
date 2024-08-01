@@ -19,23 +19,23 @@ export default function Home() {
           duration: 0.8,
           ease: 'easeInOut',
         }}
-        className='relative flex flex-col gap-4 items-center justify-center h-screen'
+        className='relative flex gap-4 items-center justify-center h-screen'
       >
-        <div className='flex items-center'>
+        <div className='flex flex-col md:flex-row items-center'>
           <div>
             <Image
               src='/photo.jpg'
               width={170}
               height={170}
               alt="Agustin Ludueña's photo"
-              className='mr-8 rounded-full'
+              className='pb-4 md:mr-8 rounded-full'
             />
           </div>
           <div>
-            <h1 className='pb-4 text-5xl text-seasalt font-bold'>
+            <h1 className='pb-4 text-center text-3xl md:text-start md:text-5xl text-seasalt font-bold'>
               Agustin Ludueña
             </h1>
-            <p className='text-xl text-seasalt'>
+            <p className='text-center md:text-start text-base md:text-xl text-seasalt'>
               A developer interested in AI. I want to create
               <br /> my own AI-powered assistant
             </p>
